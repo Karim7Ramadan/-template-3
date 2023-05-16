@@ -75,7 +75,7 @@ function startCount(el) {
     }
   }, 2000 / goal);
 }
-let btn = document.querySelector(`button`);
+let btn = document.querySelector(`.btn`);
 
 window.onscroll = function () {
   if (window.scrollY >= 600) {
